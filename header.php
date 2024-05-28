@@ -13,8 +13,8 @@
 <body>
     <header class="site-header">
         <div class="logo">
-            <a href="<?=home_url('/')?>">
-                <img src="<?= get_template_directory_uri() ?>/images/logo.png" alt="logo">
+            <a href="<?=esc_url(home_url('/'))?>">
+                <img class="logo-image" src="<?= get_template_directory_uri() ?>/images/logo.png" alt="logo">
             </a>
         </div>
     </header>

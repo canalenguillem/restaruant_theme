@@ -9,3 +9,12 @@ function courseenguillem_styles()
 
 }
 add_action('wp_enqueue_scripts', 'courseenguillem_styles');
+
+//add menus
+function courseenguillem_menus(){
+    register_nav_menus(array(
+        'header-menu'=> __('Header Menu','restaurant')
+    ));
+
+}
+add_action('init', 'courseenguillem_menus');

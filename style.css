@@ -1,0 +1,15 @@
+/*
+Theme Name: courseEnguillem
+Theme URI: http://example.com/courseEnguillem
+Author: Tu Nombre
+Author URI: http://example.com
+Description: Un tema de WordPress personalizado para CourseEnguillem.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: courseEnguillem
+*/
+
+body{
+    background-color: rgb(177, 168, 168);
+}
